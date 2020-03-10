@@ -1,0 +1,30 @@
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cities {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cities__name {
+	font-size: 14px;
+	padding: 50px 35px 40px 0;
+	color: var(--white);
+}
+
+.cities__name.-blue {
+	color: var(--blue);
+}
+
+.header__right {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__link {
+	font-size: 14px;
+	padding:50px 50px 40px 0;
+	color: var(--white);
+}

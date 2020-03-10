@@ -1,0 +1,66 @@
+.hero__about {
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 250px;
+	position: relative;
+}
+
+.hero__container {
+	width: 49%;
+}
+
+.hero__place, .hero__also, .hero__title {
+	color: var(--white);
+}
+
+.hero__place {
+	padding-top: 45px;
+	font-size: 12px;
+}
+
+.hero__title {
+	padding-top: 20px;
+	font-size: 30px;
+	line-height: 1.4;
+	width: 330px;
+}
+
+.hero__also {
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+.mark {
+	position: absolute;
+	bottom: 120px;
+	left:160px;
+	width: 231px;
+	height: 231px;
+	border-radius: 50%;
+	background-color: var(--grey);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.mark__assassment, .mark__rate, .mark__name, .mark__wimprof, .mark__review {
+	color: var(--blue);
+}
+
+.mark__assassment {
+	margin-top: 50px;
+}
+
+.mark__rate {
+	font-size: 35px;
+	height: 23%;
+}
+
+.mark__name {
+	height: 15%;
+}
+
+.mark__wimprof {
+	height: 15%;
+}
