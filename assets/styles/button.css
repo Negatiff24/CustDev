@@ -9,7 +9,6 @@
 }
 
 .button.-white {
-	margin-top: 35px;
 	border: solid 0 var(--white);
 	background-color: var(--white);
 	color: var(--blue);

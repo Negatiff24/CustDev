@@ -1,4 +1,6 @@
 .header__nav {
+	height: 100px;
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
@@ -10,8 +12,8 @@
 
 .cities__name {
 	font-size: 14px;
-	padding: 50px 35px 40px 0;
 	color: var(--white);
+	margin-right: 20px;
 }
 
 .cities__name.-blue {
@@ -21,10 +23,61 @@
 .header__right {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header__link {
 	font-size: 14px;
-	padding:50px 50px 40px 0;
 	color: var(--white);
+	margin-right: 20px;
+}
+
+.burger {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.cities__name, .header__link {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cities__name {
+		display: none;
+	}
+
+	.cities__name.-blue {
+		display: block;
+		padding-left: 10px;
+		font-size: 14px;
+	}
+
+	.header__right {
+		display: none;
+	}
+
+	.burger {
+		margin-right: 10px;
+		display: block;
+		height: 25px;
+		width: 30px;
+		position: relative;
+	}
+
+	.meat {
+		height: 2px;
+		width: 30px;
+		background-color: var(--white);
+		position: absolute;
+	}
+
+	.meat.-second {
+		top: 10px;
+		width: 15px;
+	}
+
+	.meat.-third {
+		top: 20px;
+	}
 }

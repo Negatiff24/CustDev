@@ -21,3 +21,9 @@ img {
 a {
 	text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+	body {
+		background-size: 1100px;
+	}
+}

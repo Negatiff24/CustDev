@@ -64,3 +64,27 @@
 .mark__wimprof {
 	height: 15%;
 }
+
+@media screen and (max-width: 1023px) {
+	.mark {
+		bottom: 200px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hero__about {
+		justify-content: center;
+		display: flex;
+		padding-bottom: 20px;
+	}
+
+	.hero__title {
+		font-size: 30px;
+	}
+
+	.mark {
+		position: static;
+		align-items: center;
+		margin: 0 auto;
+	}
+}
