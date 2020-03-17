@@ -24,6 +24,7 @@ a {
 
 @media screen and (max-width: 767px) {
 	body {
-		background-size: 1100px;
+		background-size: 1200px;
+		background-position-x: -450px;
 	}
 }

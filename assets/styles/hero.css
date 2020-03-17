@@ -66,6 +66,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+	.hero__about {
+		padding-bottom: 150px;
+	}
+
 	.mark {
 		bottom: 200px;
 	}
@@ -78,6 +82,11 @@
 		padding-bottom: 20px;
 	}
 
+	.hero__container {
+		width: calc(100% - 5px);
+		align-items: center;
+	}
+
 	.hero__title {
 		font-size: 30px;
 	}
@@ -86,5 +95,6 @@
 		position: static;
 		align-items: center;
 		margin: 0 auto;
+		margin-bottom: 50px;
 	}
 }
