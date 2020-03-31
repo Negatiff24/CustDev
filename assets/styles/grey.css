@@ -1,0 +1,83 @@
+.grey {
+	background-image: url(../img/Rectangle.png);
+	background-position: right -4px;
+	background-repeat: no-repeat;
+	background-size: calc(100% - 70px);
+	padding: 100px 0;
+	margin-bottom: 100px;
+}
+
+.grey__about {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.grey__desk {
+	width: 85%;
+}
+
+.grey__table {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.grey__cell {
+	width: 25%;
+}
+
+.grey__title {
+	font-size: 30px;
+}
+
+.grey__name {
+	font-size: 14px;
+	color: var(--blue);
+}
+
+.grey__text {
+	font-size: 14px;
+	line-height: 1.4;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+	.grey {
+		background-size: 1200px;
+		background-position-x: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.grey {
+		background-size: 1800px;
+		background-position-x: -140px;
+	}
+
+	.grey__about {
+		display: block;
+		margin: 0 auto;
+		width: calc(100% - 180px);
+	}
+
+	.grey__desk {
+		width: 100%;
+	}
+
+	.grey__table {
+		flex-direction: column;
+	}
+
+	.grey__cell {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.grey__title {
+		font-size: 24px;
+	}
+
+	.grey__text {
+		padding-top: 5px;
+	}
+}

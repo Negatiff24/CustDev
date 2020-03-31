@@ -1,3 +1,7 @@
+.section {
+	padding-bottom: 105px;
+}
+
 .section__about {
 	display: flex;
 	justify-content: space-between;
@@ -6,6 +10,14 @@
 .section__title1	{
 	font-size: 30px;
 	margin: auto 0;
+}
+
+.section__title1.-second {
+	margin-left: 50px;
+}
+
+.section__title1.-white {
+	color: var(--white);
 }
 
 .section__card {
@@ -24,15 +36,43 @@
 	margin: 0 20px 40px 0;
 }
 
+.card.-l {
+	width: 48%;
+	height: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+
 .card__title {
 	color: var(--blue);
 	font-size: 24px;
 	padding-bottom: 5px;
 }
 
+.card__title.-s {
+	font-size: 16px;
+}
+
 .card__text {
 	color: var(--dark_grey);
 	font-size: 16px;
+}
+
+.card.-noborder {
+	box-shadow: none;
+	margin: 0;
+}
+
+.card.-uno {
+	margin: auto 0;
+	width: 50%;
+}
+
+.section__link {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--blue);
+	margin-left: 50px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -49,6 +89,11 @@
 	.card {
 		width: 46%;
 		margin: 15px auto;
+	}
+
+	.card.-uno {
+		position: absolute;
+		
 	}
 }
 
