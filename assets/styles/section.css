@@ -32,6 +32,11 @@
 	border: solid 0 var(--white);
 }
 
+.card__img {
+	width: 60px;
+	height: 60px;
+}
+
 .card {
 	width: 313px;
 	height: 221px;
@@ -79,6 +84,28 @@
 	margin-left: 50px;
 }
 
+.section.-blue {
+	background-image: url(../img/RectangleBlue.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y: -30px;
+	background-position-x: -60px;
+	padding-top: 30px;
+}
+
+.section__title1.-white {
+	margin-bottom: 40px;
+}
+
+.card.-l {
+	height: 250px;
+	background-color: var(--white);
+}
+
+.card__right {
+	width: 75%;
+}
+
 @media screen and (max-width: 1023px) {
 	.section__about {
 		flex-direction: column;
@@ -123,6 +150,10 @@
 		width: 100%;
 		text-align: center;
 		margin-bottom: 20px;
+	}
+
+	.section__title1.-second {
+		margin-left: 0;
 	}
 
 	.section__card {
