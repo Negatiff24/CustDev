@@ -30,7 +30,7 @@
 	font-size: 14px;
 }
 
-.mark {
+.circle {
 	position: absolute;
 	bottom: 120px;
 	left:160px;
@@ -40,28 +40,24 @@
 	background-color: var(--grey);
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 }
 
-.mark__assassment, .mark__rate, .mark__name, .mark__wimprof, .mark__review {
+.circle__assassment, .circle__rate, .circle__name, .circle__wimprof, .circle__review {
 	color: var(--blue);
 }
 
-.mark__assassment {
-	margin-top: 50px;
-}
-
-.mark__rate {
+.circle__rate {
 	font-size: 35px;
 	height: 23%;
 }
 
-.mark__name {
+.circle__name {
 	height: 15%;
 }
 
-.mark__wimprof {
+.circle__wimprof {
 	height: 15%;
 }
 
@@ -70,7 +66,7 @@
 		padding-bottom: 150px;
 	}
 
-	.mark {
+	.circle {
 		bottom: 200px;
 	}
 }
@@ -91,7 +87,7 @@
 		font-size: 30px;
 	}
 
-	.mark {
+	.circle {
 		position: static;
 		align-items: center;
 		margin: 0 auto;
