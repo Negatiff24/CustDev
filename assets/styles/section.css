@@ -2,6 +2,10 @@
 	padding-bottom: 105px;
 }
 
+.section.-second {
+	padding-bottom: 200px;
+}
+
 .section__about {
 	display: flex;
 	justify-content: space-between;
@@ -154,7 +158,8 @@
 	}
 
 	.section.-blue {
-		background-size: 1800px;
+		background-image: url(../img/RectangleBlueM.png);
+		background-position-x: 0;
 	}
 
 	.card.-l {
@@ -209,5 +214,9 @@
 
 	.section__link {
 		position: static;
+	}
+
+	.section.-blue {
+		background-image: url(../img/RectangleBlueS.png);
 	}
 }
