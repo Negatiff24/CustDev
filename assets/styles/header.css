@@ -1,8 +1,9 @@
-.header__nav {
-	height: 100px;
-	align-items: center;
+.header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	padding: 0 30px;
 }
 
 .cities {
@@ -37,6 +38,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+	.header {
+		padding: 0 15px;
+	}
+
 	.cities__name, .header__link {
 		font-size: 12px;
 	}
