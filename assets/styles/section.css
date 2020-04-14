@@ -2,9 +2,7 @@
 	padding-bottom: 105px;
 }
 
-.section.-second {
-	padding-bottom: 200px;
-}
+
 
 .section__about {
 	display: flex;
@@ -41,6 +39,11 @@
 	height: 60px;
 }
 
+.card__img.-thrust {
+	width: 83px;
+	height: 70px;
+}
+
 .card {
 	width: 313px;
 	height: auto;
@@ -64,6 +67,11 @@
 
 .card__title.-s {
 	font-size: 16px;
+}
+
+.card__title.-thrusts {
+	font-size: 20px;
+	padding-bottom: 15px;
 }
 
 .card__text {
@@ -108,6 +116,40 @@
 
 .card__right {
 	width: 75%;
+}
+
+.thrust__top {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.thrust__bottom {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.thrust__video {
+	border-radius: 10px;
+	width: 600px;
+}
+
+.card.-thrust {
+	margin: auto 0;
+	min-height: 180px;
+}
+
+.card__title.-thrust {
+	font-size: 27px;
+	padding-bottom: 30px;
+}
+
+.card.-thrusts {
+	box-shadow: none;
+	width: 25%;
+	margin: 0;
+	padding: 40px 30px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -157,17 +199,41 @@
 		width: 40%;
 	}
 
-	.section.-blue {
-		background-image: url(../img/RectangleBlueM.png);
-		background-position-x: 0;
-	}
-
 	.card.-l {
 		width: 100%;
+	}
+
+	.section.-blue {
+		background-size: 200%;
+	}
+
+	.thrust__video {
+		margin: 0 auto;
+	}
+
+	.card.-thrust {
+		display: none;
+	}
+
+	.thrust__top {
+		padding-top: 50px;
+	}
+
+	.thrust__bottom {
+		flex-wrap: wrap;
+	}
+
+	.card.-thrusts {
+		width: 50%;
+		padding: 40px 40px;
 	}
 }
 
 @media screen and (max-width: 767px) {
+	.section.-second {
+		padding-bottom: 200px;
+	}
+
 	.section__title1 {
 		width: 100%;
 		text-align: center;
@@ -217,6 +283,11 @@
 	}
 
 	.section.-blue {
-		background-image: url(../img/RectangleBlueS.png);
+		background-size: 600%;
+	}
+
+	.card.-thrusts {
+		padding: 40px 70px;
+		width: 100%;
 	}
 }
