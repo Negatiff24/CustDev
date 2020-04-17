@@ -3,6 +3,10 @@
 	width: 1024px;
 }
 
+.container.-reviews {
+	position: relative;
+}
+
 @media screen and (max-width: 1023px) {
 	.container {
 		width: 730px;
