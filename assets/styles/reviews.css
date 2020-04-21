@@ -1,3 +1,10 @@
+.reviews {
+	padding-bottom: 105px;
+	background-image: url(../img/Rectangle2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 .reviews__title {
 	font-size: 35px;
 	padding-bottom: 20px;
@@ -25,13 +32,23 @@
 	border-radius: 15px;
 }
 
+.bubble:before {
+	display: block;
+	content: "";
+	width: 20px;
+	height: 20px;
+
+}
+
 .bubble__title {
 	font-size: 16px;
+	line-height: 180%;
 	color: var(--dark_grey);
 }
 
 .bubble__text {
 	font-size: 16px;
+	line-height: 180%;
 	color: var(--dark_grey);
 }
 
@@ -72,4 +89,42 @@
 	font-size: 12px;
 	color: var(--blue);
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+	.reviews {
+		background-size: 260%;
+	}
+
+	.message {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.message.-l {
+		position: static;
+	}
+
+	.bubble {
+		padding: 60px;
+	}
+
+	.sphere {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.reviews {
+		background-size: 600%;
+		background-position-x: -10px;
+	}
+
+	.message {
+		width: 100%;
+	}
+
+	.bubble__text {
+		line-height: 190%;
+	}
 }
