@@ -30,6 +30,8 @@
 	margin-bottom: 15px;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 	border-radius: 15px;
+	position: relative;
+	background-color: var(--white);
 }
 
 .bubble:before {
@@ -37,7 +39,11 @@
 	content: "";
 	width: 20px;
 	height: 20px;
-
+	position: absolute;
+	background-color: var(--white);
+	bottom: -10px;
+	left: 30px;
+	transform: rotate(45deg);
 }
 
 .bubble__title {
