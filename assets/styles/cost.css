@@ -13,6 +13,7 @@
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .cost__card {
@@ -63,7 +64,7 @@
 }
 
 .cost__card.-low {
-	width: 50%;
+	width: 65%;
 	height: 160px;
 	margin: 0 auto;
 	margin-top: 35px;
@@ -81,4 +82,26 @@
 
 .button.-long.-low {
 	margin: auto 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.cost__card.-low {
+		
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.cost__card {
+		width: 49%;
+	}
+
+	.cost__card.-low {
+		width: 49%;
+		display: block;
+	}
+
+	.cost__profitability {
+		top: -20px;
+		right: -20px;
+	}
 }
