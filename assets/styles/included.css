@@ -1,0 +1,90 @@
+.included {
+	padding-top: 50px;
+	padding-bottom: 105px;
+	background-color: var(--blue);
+}
+
+.included__squeeze {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.included__title {
+	font-size: 35px;
+	color: var(--white);
+}
+
+.included__cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.included__card {
+	width: 47%;
+	height: auto;
+	background-color: var(--white);
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+	padding: 50px;
+	margin-top: 60px;
+}
+
+.included__card.-first {
+	display: flex;
+	justify-content: space-between;
+}
+
+.included__video {
+	background-image: url(../img/image_mujik.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.included__card_r {
+	width: 66%;
+}
+
+.included__img {
+	width: 72px;
+	height: 72px;
+}
+
+.included__title2 {
+	font-size: 16px;
+	line-height: 140%;
+	color: var(--blue);
+}
+
+.included__title2.-video {
+	margin-top: 40px;
+}
+
+.included__title2.-last {
+	margin: 10px 0 15px 0;
+}
+
+.included__text {
+	font-size: 14px;
+	line-height: 140%;
+	color: var(--dark_grey);
+}
+
+@media screen and (max-width: 1023px) {
+	.included__card.-first {
+		flex-direction: column;
+	}
+
+	.included__card_r {
+		width: 100%;
+	}
+
+	.included__card {
+		width: 49%;
+		margin-top: 10px;
+	}
+
+	.included__video {
+		height: 170px;
+	}
+}

@@ -63,36 +63,41 @@
 	color: var(--white);
 }
 
-.cost__card.-low {
-	width: 65%;
-	height: 160px;
-	margin: 0 auto;
-	margin-top: 35px;
-	display: flex;
-	justify-content: flex-start;
-}
-
-.cost__card_left {
-	width: 50%;
-}
-
-.cost__price.-low {
-	padding: 45px 0 15px 0;
-}
-
-.button.-long.-low {
-	margin: auto 0;
-}
-
 @media screen and (min-width: 1024px) {
 	.cost__card.-low {
-		
+		width: 65%;
+		height: 145px;
+		margin: 0 auto;
+		margin-top: 35px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.cost__price.-low {
+		padding: 45px 0 15px 0;
+	}
+
+	.button.-long.-low {
+		margin: auto 0;
+	}
+
+	.cost__card_left {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.cost__card_left .cost__price {
+		padding-top: 0;
 	}
 }
 
 @media screen and (max-width: 1023px) {
 	.cost__card {
 		width: 49%;
+		margin-bottom: 10px;
 	}
 
 	.cost__card.-low {
@@ -101,7 +106,21 @@
 	}
 
 	.cost__profitability {
-		top: -20px;
-		right: -20px;
+		top: -15px;
+		right: -15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cost__cards {
+		width: 90%;
+	}
+
+	.cost__card {
+		width: 100%;
+	}
+
+	.cost__card.-low {
+		width: 100%;
 	}
 }
