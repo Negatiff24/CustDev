@@ -64,6 +64,25 @@
 	border-radius: 50px;
 }
 
+.message__avatar.-first {
+	background-image: url(../img/Mujik.png);
+	background-repeat: no-repeat;
+	background-size: 143%;
+	background-position-x: -6px;
+}
+
+.message__avatar.-second {
+	background-image: url(../img/PafosniiMujik.png);
+	background-repeat: no-repeat;
+	background-position-x: -25px;
+}
+
+.message__avatar.-third {
+	background-image: url(../img/BezBab.png);
+	background-repeat: no-repeat;
+	background-position-x: -25px;
+}
+
 .sphere {
 	width: 231px;
 	height: 231px;
