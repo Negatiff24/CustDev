@@ -39,6 +39,7 @@
 	background-image: url(../img/image_mujik.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	height: 150px;
 }
 
 .included__card_r {
@@ -82,9 +83,22 @@
 	.included__card {
 		width: 49%;
 		margin-top: 10px;
+		padding: 35px;
 	}
 
 	.included__video {
-		height: 170px;
+		background-size: 200%;
+		background-position-x: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.included__squeeze {
+		width: 95%;
+	}
+
+	.included__card {
+		width: 100%;
+		padding: 50px;
 	}
 }
